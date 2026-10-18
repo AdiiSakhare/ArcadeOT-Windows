@@ -36,3 +36,7 @@ Protocol peers are test-only and are never runtime data sources.
 No physical PLC, exact model/firmware tuple, real serial adapter/wiring, Windows UI/runtime execution, secure OPC UA commissioning, deployed ingestion backend, long-running soak, disk-full/power-loss recovery, Windows auto-start service installation, or multi-user role model was validated. Build/test success is software evidence, not hardware qualification. Run the gateway on the PLC network and compare raw/scaled values against the engineering tool before enabling acquisition for the installation.
 
 The original .NET solution was not rebuilt: this environment has no `dotnet` SDK and Windows/WPF execution is unavailable. Existing C# source and artifacts were not changed. The new web build was validated separately.
+
+## macOS launcher addition
+
+`bash -n web/Start-ArcadeOT.command` passed. Official Node.js 24 release-manifest selection was checked for both darwin-arm64 and darwin-x64. The launcher uses a private app-local runtime and verifies downloaded SHA-256 before extraction. macOS Finder/Terminal launch and native serial drivers cannot be executed in this Linux environment and remain unverified.

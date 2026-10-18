@@ -4,7 +4,7 @@ React workspace and a real, read-only Node.js PLC gateway. No simulator, generat
 
 ## Run for today's demo
 
-Install **Node.js 24 LTS** on the computer connected to the PLC network. On Windows, double-click `Start-ArcadeOT.cmd`, or run:
+On macOS, open `Start-ArcadeOT.command` (automatic app-local Node setup; see below). On Windows, install **Node.js 24 LTS** and double-click `Start-ArcadeOT.cmd`. To start manually on any supported OS with Node.js 24 installed, run:
 
 ```sh
 cd web
@@ -16,6 +16,14 @@ npm start
 If you extracted the standalone web ZIP, run these commands directly in its extracted folder (omit `cd web`). Open **http://127.0.0.1:3001**. Keep the terminal running. Closing the browser does not stop acquisition; stopping the Node process does. This is a separate gateway, not the existing Windows collector service, and is not installed as an auto-start Windows service.
 
 For development: `npm run dev` runs the API on port 3001 and Vite on http://127.0.0.1:5173. Stop the production server before using that command.
+
+### macOS (Apple Silicon or Intel)
+
+Extract the ZIP and open `Start-ArcadeOT.command`. If Node.js 24 is missing, the launcher downloads the matching official Node.js 24 macOS runtime, verifies its SHA-256 against the official release manifest, and keeps it privately inside the extracted app's ignored `.runtime` folder. No Homebrew or administrator installation is required. The first launch needs Internet access for Node/npm dependencies. It builds the app, starts the real gateway and opens the browser after the page responds.
+
+If Finder does not launch the command file, open Terminal, type `bash ` (including the space), drag `Start-ArcadeOT.command` into Terminal, then press Return. Keep that terminal open while collecting. This starts a foreground gateway; it does not install a 24/7 background service or prevent Mac sleep.
+
+For Modbus RTU on Mac, configure the actual adapter path such as `/dev/cu.usbserial-…` and its installed driver. GX Works3 still requires its supported engineering environment; the web gateway itself is cross-platform.
 
 ### Mitsubishi FX5U
 
