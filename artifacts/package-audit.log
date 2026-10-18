@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "parameters": "--vulnerable --include-transitive",
+  "sources": [
+    "https://api.nuget.org/v3/index.json"
+  ],
+  "projects": [
+    {
+      "path": "/Users/adinathsakhare/Desktop/ArcadeOT-Windows-x64/src/ArcadeOT.Application/ArcadeOT.Application.csproj"
+    },
+    {
+      "path": "/Users/adinathsakhare/Desktop/ArcadeOT-Windows-x64/src/ArcadeOT.Desktop/ArcadeOT.Desktop.csproj"
+    },
+    {
+      "path": "/Users/adinathsakhare/Desktop/ArcadeOT-Windows-x64/src/ArcadeOT.Domain/ArcadeOT.Domain.csproj"
+    },
+    {
+      "path": "/Users/adinathsakhare/Desktop/ArcadeOT-Windows-x64/src/ArcadeOT.Drivers.Slmp/ArcadeOT.Drivers.Slmp.csproj"
+    },
+    {
+      "path": "/Users/adinathsakhare/Desktop/ArcadeOT-Windows-x64/src/ArcadeOT.Infrastructure/ArcadeOT.Infrastructure.csproj"
+    },
+    {
+      "path": "/Users/adinathsakhare/Desktop/ArcadeOT-Windows-x64/src/ArcadeOT.Service/ArcadeOT.Service.csproj"
+    },
+    {
+      "path": "/Users/adinathsakhare/Desktop/ArcadeOT-Windows-x64/tests/unit/ArcadeOT.Checks/ArcadeOT.Checks.csproj"
+    }
+  ]
+}

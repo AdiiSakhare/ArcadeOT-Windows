@@ -1,0 +1,7 @@
+Frame, decoding and configuration validation checks passed.
+5 network checks passed: fragmented binary/ASCII, PLC error, EOF, timeout. No PLC was contacted.
+PASS: strict null/unknown-field/profile/range validation, type-aware groups and quoted CSV import.
+PASS: durable replay IDs, quarantine isolation/retry, ACK, cursor history and configuration persistence/rejection. No PLC was contacted.
+PASS: bounded cloud ACK parsing, partial ACK, unsent/duplicate rejection, quarantine preservation and later-batch delivery (mock HTTP transport; no hosted backend).
+PASS: v1 config migration preserves IDs and disables acquisition; malformed payload maps to BadDecode.
+PASS: unversioned database rejected without adding v2 tables.

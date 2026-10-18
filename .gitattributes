@@ -1,0 +1,8 @@
+artifacts/ArcadeOT-Windows-x64-preview.zip filter=lfs diff=lfs merge=lfs -text
+artifacts/ArcadeOT-Windows-x64.zip filter=lfs diff=lfs merge=lfs -text
+artifacts/ArcadeOT-windows-x64.exe filter=lfs diff=lfs merge=lfs -text
+artifacts/installer-build/setup.res.o filter=lfs diff=lfs merge=lfs -text
+artifacts/powershell/powershell-7.6.0-osx-arm64.tar.gz filter=lfs diff=lfs merge=lfs -text
+artifacts/toolchain/llvm-mingw-20260616-ucrt-macos-universal.tar.xz filter=lfs diff=lfs merge=lfs -text
+artifacts/toolchain/llvm-mingw-20260616-ucrt-macos-universal/lib/libLLVM.dylib filter=lfs diff=lfs merge=lfs -text
+artifacts/toolchain/llvm-mingw-20260616-ucrt-macos-universal/lib/libclang-cpp.dylib filter=lfs diff=lfs merge=lfs -text

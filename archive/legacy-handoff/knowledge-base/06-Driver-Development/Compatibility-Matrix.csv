@@ -1,0 +1,20 @@
+manufacturer,family,interface,protocol,documentation_status,implementation_status,hardware_status,priority,conditions_unknowns,source_ids
+Mitsubishi,FX5U,Built-in Ethernet,SLMP 3E TCP binary/ASCII,Documented,Implemented; build/protocol checks passed,Not tested,today,exact SKU/firmware/listener/mapping,MIT-SLMP;MIT-NET
+Mitsubishi,FX5U,Built-in Ethernet,Modbus TCP,Documented conditional,Not implemented,Not tested,next,firmware/server setup/map,MIT-NET;MIT-COMM
+Mitsubishi,FX5U + FX5-ENET/IP,Add-on exact module,EtherNet/IP,Module documented,Not implemented,Not tested,later,module/firmware/role/spec,MIT-NET;MIT-INDEX
+Mitsubishi,FX5UC/FX5UJ/FX5S,Exact built-in/interface,SLMP,Documented family-level,Unqualified codec reuse candidate,Not tested,later,model ranges/firmware/features,MIT-NET;MIT-INDEX
+Siemens,S7-1200 classic,CPU Ethernet,S7 legacy absolute,Conditional documented access concepts,Not implemented,Not tested,later,protection/nonoptimized exchange DB/library,SIE-SEC;SIE-DB
+Siemens,S7-1200 classic,CPU enabled/licensed server,OPC UA,Conditional documented server,Not implemented,Not tested,next,exact CPU/firmware/license/user rights,SIE-UA
+Siemens,S7-1200 G2,Exact CPU,S7/OPC UA,Separate V21 profile; feature bounds unknown,Not implemented,Not tested,later,generation-specific firmware/manual matrix,SIE-G2
+Siemens,S7-1500,Exact CPU/interface,OPC UA/S7,Research candidate; no per-model review,Not implemented,Not tested,later,full CPU profile and license,SIE-G2;SIE-DB
+Delta,DVP12SE/DVP26SE,Built-in Ethernet,Modbus TCP,Catalogue documented; exact server validation pending,Not implemented,Not tested,next,SKU/firmware/map/unit ID,DEL-CAT;DEL-PROG
+Delta,DVP-SS2/SX2/ES2,Exact serial port,Modbus RTU,Conditional family documentation,Not implemented,Not tested,next,port mode/station/map/adapter,DEL-CAT;DEL-PROG
+Schneider,M221 Ethernet references,Exact Ethernet CPU,Modbus TCP,Conditional documented,Not implemented,Not tested,next,TM221 SKU/server map/function limits,SCH-HW;SCH-PROG;SCH-MAP
+Schneider,M221 serial references,Exact serial port,Modbus RTU,Conditional guide candidate,Not implemented,Not tested,next,model/slave mode/serial timing,SCH-HW;SCH-PROG
+Schneider,M241/M251/M262,Unknown,Unknown,Unreviewed separate families,Not implemented,Not tested,backlog,obtain exact model manuals,
+Omron,CP1L-EM/EL,Embedded Ethernet,FINS,Ethernet documented; commands need manual,Not implemented,Not tested,later,W342/interface details/routing,OMR-CP;OMR-FINS
+Omron,CJ2M/CJ2H,Exact CPU/network unit,FINS,Conditional referenced commands,Not implemented,Not tested,later,CPU variant/W342/W420 access,OMR-CJ;OMR-FINS
+Omron,NJ/NX,Exact Sysmac CPU,FINS/OPC UA candidate,NJ FINS guide identified; NX/UA scope unknown,Not implemented,Not tested,later,exact CPU/firmware/variable access manual,OMR-NJ
+Rockwell,CompactLogix 1769/5069,Exact Ethernet path,EtherNet/IP explicit CIP tags,Data access documented,Not implemented,Not tested,later,firmware/tag permissions/route/type limits,RA-DATA;ODVA-SPEC
+Rockwell,ControlLogix 1756,Exact Ethernet module/slot,EtherNet/IP explicit CIP tags,Data access documented,Not implemented,Not tested,later,module path/firmware/security,RA-DATA
+Rockwell,Micro800/MicroLogix/SLC,Unknown,Unknown,Separate unreviewed architectures,Not implemented,Not tested,backlog,obtain exact manuals; no Logix assumption,

@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-18",
+  "status": "PASS",
+  "originalFilesPreserved": 700,
+  "legacyManifests": [
+    {
+      "package": "legacy-release",
+      "entries": 624
+    },
+    {
+      "package": "legacy-handoff",
+      "entries": 74
+    }
+  ],
+  "jsonFilesParsed": 91,
+  "newLocalMarkdownLinksChecked": 12,
+  "windowsExeHeaders": "AMD64 PE",
+  "sqliteBaselineDdl": "executed in memory",
+  "issues": [],
+  "notRun": [
+    "Windows UI/installer/service execution",
+    "physical PLC validation",
+    "cloud deployment"
+  ]
+}

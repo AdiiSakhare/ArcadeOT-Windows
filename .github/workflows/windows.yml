@@ -1,0 +1,33 @@
+name: Windows application and installer
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: true
+      - uses: actions/setup-dotnet@v4
+        with:
+          global-json-file: global.json
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Build, audit, test and package
+        shell: pwsh
+        run: ./scripts/Build-Windows.ps1
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ArcadeOT-Windows-x64
+          path: |
+            artifacts/ArcadeOT-windows-x64.exe
+            artifacts/ArcadeOT-windows-x64.exe.sha256
+            artifacts/installer-verification.json
+            artifacts/package-audit.json
+            artifacts/service-integration.json
+            artifacts/installer-checks.json

@@ -1,0 +1,47 @@
+{
+  "version": "0.3.0",
+  "artifact": "ArcadeOT-windows-x64.exe",
+  "bytes": 113708032,
+  "sha256": "f42b97b3bf44088626c48547386cbcb6e11ac2bca1cb0d0feaa651d39b8c67aa",
+  "payloadSha256": "2960f57f16cf89a25bd5e29d8dcc0bcf45b4558b7225480a0099a19bb6de2ab1",
+  "machine": "AMD64",
+  "subsystem": "Windows GUI",
+  "adminManifest": true,
+  "embeddedPayloadVerified": true,
+  "embeddedScriptVerified": true,
+  "aslr": true,
+  "dep": true,
+  "highEntropyVA": true,
+  "imports": [
+    "bcrypt.dll",
+    "COMCTL32.dll",
+    "SHELL32.dll",
+    "ole32.dll",
+    "ADVAPI32.dll",
+    "USER32.dll",
+    "GDI32.dll",
+    "api-ms-win-crt-stdio-l1-1-0.dll",
+    "api-ms-win-crt-string-l1-1-0.dll",
+    "api-ms-win-crt-runtime-l1-1-0.dll",
+    "api-ms-win-crt-locale-l1-1-0.dll",
+    "api-ms-win-crt-heap-l1-1-0.dll",
+    "api-ms-win-crt-private-l1-1-0.dll",
+    "KERNEL32.dll",
+    "api-ms-win-crt-math-l1-1-0.dll",
+    "api-ms-win-crt-environment-l1-1-0.dll"
+  ],
+  "signed": false,
+  "windowsExecuted": false,
+  "sourceFingerprint": "58c7d21cdfcab5f3eb1685cba422ee633c9ef383228d6e21f87bce00bc9cf1c1",
+  "setupSources": {
+    "setup.c": "2df95f4fe94edfe726f2d45d593c356942345ad349d09ae929cb6b213d90f9dc",
+    "setup.manifest": "b49496882b4b113f55cfdecd366a3e13f0d992bcb8348c5943a6caad88dfe757",
+    "Expand-And-Install.ps1": "1c4ec1c81b71e5989f129c326504454a1e328792ddd1631200780a7d1087820b"
+  },
+  "toolchain": {
+    "release": "https://github.com/mstorsjo/llvm-mingw/releases/tag/20260616",
+    "asset": "llvm-mingw-20260616-ucrt-macos-universal.tar.xz",
+    "sha256": "2cab02a2e964bd4aae981150a45985d07c657cfa8d244959eb9e2dcc5eedd7b1",
+    "officialDigest": "sha256:2cab02a2e964bd4aae981150a45985d07c657cfa8d244959eb9e2dcc5eedd7b1"
+  }
+}

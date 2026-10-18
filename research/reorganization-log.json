@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-18",
+  "moves": {
+    "ArcadeOT": "archive/legacy-release",
+    "ArcadeOT-Handoff": "archive/legacy-handoff"
+  },
+  "removed": [
+    "00_TODAY_FX5U.md (exact duplicate of archive/legacy-handoff/docs/00_TODAY_FX5U.md)",
+    ".DS_Store"
+  ],
+  "legacyPolicy": "Recoverable archive until replacement passes Windows and hardware gates; no original source or runtime deleted."
+}

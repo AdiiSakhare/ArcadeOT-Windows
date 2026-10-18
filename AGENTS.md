@@ -1,3 +1,16 @@
+# ArcadeOT replacement workspace
+
+Latest user direction: first structure the complete folder, then plan a new, improved Windows application. The operator must configure PLC models, IP, I/O modules/pins, sensor mappings and all installation settings in the app. No fixed installation is assumed.
+
+Read README.md, docs/product/CONFIGURATION-REQUIREMENTS.md and docs/planning/02-BUILD-PLAN.md before implementation. The replacement is now an implemented v0.3.0 WPF/service installation build. Read docs/validation/BUILD-STATUS.md and docs/validation/INSTALLER-BUILD.md for verification and remaining Windows/hardware gates. Native bootstrapper sources live under packaging/windows/bootstrapper; it is not an MSI/Burn installer.
+
+Keep archive/legacy-release and archive/legacy-handoff byte-for-byte recoverable. Their historical instructions and build claims apply to their old contents; they do not override the current replacement plan. Do not modify archived code to build the new app. Migrate only reviewed components into src/.
+
+Preserve independent desktop/service lifetimes, read-only PLC access, raw values, quality, UTC provenance, durable local buffering and explicit per-event cloud acknowledgments. Do not fabricate compatible models, terminal numbers, protocol capabilities or hardware validation. Separate physical terminals from PLC memory/tag mappings. Unknown catalog profiles remain unqualified.
+
+Do not put credentials or real site configurations in examples or source. Version schemas and catalog profiles; validate configuration semantically on the service side. Tests and release status must identify build, protocol, Windows and exact-hardware evidence separately. Retire the legacy archive only after replacement validation and a recovery decision.
+
+
 # Development and promotion rules
 
 ## Branches
@@ -19,6 +32,6 @@ Never push application code directly to `main`, promote untested changes, treat 
 
 ## Enforcement and initial state
 
-This repository was initialized with instructions only; no application, build command, or test suite exists yet. Application promotions remain blocked until real build and test checks are available and pass.
+The repository began with instructions only. The imported application now includes build and test commands; consult its validation documents for completed checks and pending Windows and hardware acceptance.
 
 These instructions govern agents but do not enforce GitHub permissions. Configure GitHub branch rules for `qa` and `main` to require pull requests and human approval, prevent direct pushes, force pushes, and deletion, and disallow bypasses. Once application CI exists, require its actual build and test status checks before merging. Production approval must come from the user or a reviewer they explicitly designate.

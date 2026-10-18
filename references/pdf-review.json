@@ -1,0 +1,142 @@
+[
+  {
+    "file": "MIT-HARDWARE-Q.pdf",
+    "pages": 310,
+    "reviewDepth": "cover and targeted sections; not a full line-by-line review",
+    "firstPage": "MELSEC iQ-F FX5S/FX5UJ/FX5U/FX5UC\nUser's Manual (Hardware)\n- FX5S CPU module\n- FX5UJ CPU module\n- FX5U CPU module\n- FX5UC CPU module\n- Input module\n- Output module\n- Input/output module\n- High-speed pulse input/output module\n- Powered input",
+    "matches": {
+      "FX5U CPU module": [
+        1,
+        22,
+        23,
+        26,
+        30,
+        32,
+        35,
+        36
+      ],
+      "REVISIONS": [
+        28,
+        306
+      ]
+    }
+  },
+  {
+    "file": "MIT-SLMP-K.pdf",
+    "pages": 164,
+    "reviewDepth": "cover and targeted sections; not a full line-by-line review",
+    "firstPage": "MELSEC iQ-F\nFX5 User's Manual (SLMP)\nEthernet module\n-FX5-ENET\n-FX5-ENET/IP\nCC-Link IE TSN master/local module\n-FX5-CCLGN-MS\nCC-Link IE Field Network module\n-FX5-CCLIEF\nMotion module\n-FX5-40SSC-G\n-FX5-80SSC-G",
+    "matches": {
+      "3E frame": [
+        6,
+        10,
+        11,
+        12,
+        14,
+        18,
+        19,
+        20
+      ],
+      "0401": [
+        59,
+        63,
+        67,
+        71,
+        72,
+        73,
+        74,
+        142
+      ]
+    }
+  },
+  {
+    "file": "MODBUS-APPLICATION.pdf",
+    "pages": 50,
+    "reviewDepth": "cover and targeted sections; not a full line-by-line review",
+    "firstPage": "April 26, 2012 http://www.modbus.org  1/50 \nMODBUS APPLICATION PROTOCOL SPECIFICATION \nV1.1b3 \nCONTENTS  \n1 Introduction  ................................ ................................ ................................ ...................",
+    "matches": {
+      "Read Holding Registers": [
+        1,
+        11,
+        15,
+        16,
+        36
+      ],
+      "Addressing model": [
+        1,
+        7,
+        8
+      ]
+    }
+  },
+  {
+    "file": "MODBUS-SERIAL.pdf",
+    "pages": 44,
+    "reviewDepth": "cover and targeted sections; not a full line-by-line review",
+    "firstPage": "MODBUS over serial line specification and implementation guide V1.02 Modbus.org\nModbus.org http://www.modbus.org/ 1/44\nDec 20, 2006 \nMODBUS over Serial Line  \nSpecification and Implementation Guide  \nV1.02 ",
+    "matches": {
+      "t1.5": [
+        14
+      ],
+      "CRC": [
+        2,
+        8,
+        12,
+        13,
+        14,
+        15,
+        19,
+        35
+      ]
+    }
+  },
+  {
+    "file": "OMRON-W420.pdf",
+    "pages": 289,
+    "reviewDepth": "cover and targeted sections; not a full line-by-line review",
+    "firstPage": "OPERATION  MANUAL\nCat. No. W420-E1-06\nSYSMAC CS and CJ Series\nCS1W-ETN21 (100Base-TX)\nCJ1W-ETN21 (100Base-TX)\nEthernet Units\nConstruction of Networks",
+    "matches": {
+      "FINS/TCP": [
+        8,
+        9,
+        28,
+        29,
+        30,
+        37,
+        38,
+        41
+      ],
+      "REVISIONS": [
+        286
+      ]
+    }
+  },
+  {
+    "file": "ROCKWELL-DATA-ACCESS.pdf",
+    "pages": 92,
+    "reviewDepth": "cover and targeted sections; not a full line-by-line review",
+    "firstPage": "Logix 5000 Controllers Data \nAccess\n1756 ControlLogix, 1756 GuardLogix, 1769 CompactLogix, 1769 \nCompact GuardLogix, 1789 SoftLogix, 5069 CompactLogix, 5069 \nCompact GuardLogix\nProgramming Manual Original Instructions",
+    "matches": {
+      "Read Tag": [
+        3,
+        4,
+        11,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "September": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    }
+  }
+]

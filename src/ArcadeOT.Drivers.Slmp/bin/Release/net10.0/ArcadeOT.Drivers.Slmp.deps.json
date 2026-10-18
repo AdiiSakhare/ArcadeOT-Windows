@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "ArcadeOT.Drivers.Slmp/0.3.0": {
+        "dependencies": {
+          "ArcadeOT.Domain": "0.2.0"
+        },
+        "runtime": {
+          "ArcadeOT.Drivers.Slmp.dll": {}
+        }
+      },
+      "ArcadeOT.Domain/0.2.0": {
+        "runtime": {
+          "ArcadeOT.Domain.dll": {
+            "assemblyVersion": "0.3.0.0",
+            "fileVersion": "0.3.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ArcadeOT.Drivers.Slmp/0.3.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ArcadeOT.Domain/0.2.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

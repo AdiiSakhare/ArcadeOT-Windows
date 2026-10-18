@@ -1,0 +1,12 @@
+{
+  "ScriptsParsed": 4,
+  "Sources": {
+    "packaging/windows/Install.ps1": "1D0B6FCAA461E52EB378AAC3E9929F8B3481D6F48F403E2DCAFEDC6E35C7BFE0",
+    "scripts/Build-Windows.ps1": "F25A2D33B3FEE1C91365BCFAE58D4F490823BFA0BD76CE4DC77D95AE338ABABE",
+    "packaging/windows/bootstrapper/Expand-And-Install.ps1": "1C4EC1C81B71E5989F129C326504454A1E328792DDD1631200780A7D1087820B",
+    "packaging/windows/Uninstall.ps1": "E68B100DE4499A661F56AD88F2992347078EEA9044918A0A5A4E61186154F89A"
+  },
+  "WindowsInstallationExecuted": false,
+  "UnsafeArchiveCasesRejected": 12,
+  "Status": "PASS"
+}

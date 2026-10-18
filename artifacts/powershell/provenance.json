@@ -1,0 +1,6 @@
+{
+  "release": "https://github.com/PowerShell/PowerShell/releases/tag/v7.6.0",
+  "asset": "powershell-7.6.0-osx-arm64.tar.gz",
+  "sha256": "bb52db90e964ee0b91e93f559b350878c6b27c12fd51830d8eca1793712b9639",
+  "officialDigest": "sha256:bb52db90e964ee0b91e93f559b350878c6b27c12fd51830d8eca1793712b9639"
+}

@@ -1,0 +1,272 @@
+[
+  {
+    "id": "MIT-NET",
+    "title": "Mitsubishi iQ-F Ethernet capability table",
+    "url": "https://sg.mitsubishielectric.com/fa/products/cnt/plcf/pmerit/communication/ethernet.html",
+    "edition": "Live vendor page; revision not stated",
+    "locator": "FX5U built-in Ethernet table and FX5-ENET/IP rows",
+    "access_depth": "opened",
+    "reviewed_date": "2026-10-18",
+    "hardware_verified": false
+  },
+  {
+    "id": "MIT-SLMP",
+    "title": "FX5 User\u2019s Manual (SLMP)",
+    "url": "https://dl.mitsubishielectric.com/dl/fa/document/manual/plcf/jy997d56001/jy997d56001k.pdf",
+    "edition": "JY997D56001K; legacy edition, not claimed latest",
+    "locator": "printed pp.16\u201324 frame layout; 65\u201372 devices/read; 137 error codes; 153 firmware enhancements",
+    "access_depth": "opened PDF",
+    "reviewed_date": "2026-10-18",
+    "hardware_verified": false
+  },
+  {
+    "id": "MIT-COMM",
+    "title": "FX5 User\u2019s Manual (Communication)",
+    "url": "https://dl.mitsubishielectric.com/dl/fa/document/manual/plcf/sh082625eng/sh082625engf.pdf",
+    "edition": "SH-082625ENG-F; newer J edition listed separately",
+    "locator": "3E frame commands; Ethernet configuration",
+    "access_depth": "indexed PDF; targeted command table",
+    "reviewed_date": "2026-10-18",
+    "hardware_verified": false
+  },
+  {
+    "id": "MIT-INDEX",
+    "title": "Mitsubishi manual download index",
+    "url": "https://www.mitsubishielectric.com/fa/products/faspec/download.page?category=ex&formNm=FX5_ENETIP_FX5-ENET%2FIP_7265&id=spec&kisyu=%2Fplcnet&lang=2&word=Ethernet",
+    "edition": "Index lists SH-082625ENG-J and SH-082452ENG-P, 2026/04",
+    "locator": "manual revision catalogue, not proof all revisions read",
+    "access_depth": "indexed",
+    "reviewed_date": "2026-10-18",
+    "hardware_verified": false
+  },
+  {
+    "id": "MIT-HW",
+    "title": "FX5U Hardware manual",
+    "url": "https://dl.mitsubishielectric.com/dl/fa/document/manual/plcf/jy997d55301/jy997d55301u.pdf",
+    "edition": "JY997D55301U; legacy hardware edition",
+    "locator": "model specification and wiring sections; exact SKU required",
+    "access_depth": "indexed PDF",
+    "reviewed_date": "2026-10-18",
+    "hardware_verified": false
+  },
+  {
+    "id": "SIE-UA",
+    "title": "S7-1200 OPC UA Server",
+    "url": "https://docs.tia.siemens.cloud/r/simatic_s7_1200_manual_collection_enus_20/communication/opc-ua-server",
+    "edition": "TIA V20 collection, 11/2024",
+    "locator": "OPC UA server; V4.7 user-rights topics",
+    "access_depth": "opened",
+    "reviewed_date": "2026-10-18",
+    "hardware_verified": false
+  },
+  {
+    "id": "SIE-SEC",
+    "title": "S7-1200 Secure vs. legacy communication",
+    "url": "https://docs.tia.siemens.cloud/r/simatic_s7_1200_manual_collection_enus_20/communication/secure-vs.-legacy-communication?contentId=95B1rZwB3fzZWBBqQMT9Ww",
+    "edition": "TIA V20, 11/2024",
+    "locator": "connection security and legacy communication",
+    "access_depth": "opened",
+    "reviewed_date": "2026-10-18",
+    "hardware_verified": false
+  },
+  {
+    "id": "SIE-DB",
+    "title": "Siemens OPC UA client application example",
+    "url": "https://cache.industry.siemens.com/dl/files/088/42014088/att_954894/v1/42014088_OPC_UAClient_DOKU_V12_en.pdf",
+    "edition": "Application example V1.2; older engineering reference",
+    "locator": "3.3.2 nonoptimized DBs for classic S7 access",
+    "access_depth": "indexed PDF",
+    "reviewed_date": "2026-10-18",
+    "hardware_verified": false
+  },
+  {
+    "id": "SIE-G2",
+    "title": "STEP 7 OPC UA across S7 families",
+    "url": "https://docs.tia.siemens.cloud/r/en-us/v21/communication-s7-1200-s7-1500-s7-1200-g2/opc-ua-s7-1200-s7-1500-s7-1200-g2?contentId=qBCxZdaeXbzw0vuAuI31AQ",
+    "edition": "TIA V21 collection",
+    "locator": "G2 is separately named; exact CPU/firmware capability unresolved",
+    "access_depth": "indexed",
+    "reviewed_date": "2026-10-18",
+    "hardware_verified": false
+  },
+  {
+    "id": "DEL-CAT",
+    "title": "Delta DVP catalogue",
+    "url": "https://filecenter.deltaww.com/Products/download/06/060301/Catalogue/DELTA_IA-PLC_DVP_TP_C_EN_20240513.pdf",
+    "edition": "2024-05-13 filename",
+    "locator": "DVP-SE, DVP12SE and DVP26SE networking; SS2/SX2 family differences",
+    "access_depth": "indexed PDF",
+    "reviewed_date": "2026-10-18",
+    "hardware_verified": false
+  },
+  {
+    "id": "DEL-PROG",
+    "title": "DVP-ES2/EX2/EC5/SS2/SA2/SX2/SE & TP Programming Manual",
+    "url": "https://filecenter.deltaww.com/Products/download/06/060302/Manual/DELTA_IA-PLC_DVP_ES2-EX2-EC5-SS2-SA2-SX2-SE-TP_PM_EN_20231221.pdf",
+    "edition": "2023-12-21 filename",
+    "locator": "communication registers and device map; no universal DVP offset assumed",
+    "access_depth": "indexed PDF",
+    "reviewed_date": "2026-10-18",
+    "hardware_verified": false
+  },
+  {
+    "id": "DEL-MAP",
+    "title": "Delta external I/O Modbus mapping FAQ",
+    "url": "https://preprod-www.deltaww.com/en-US/service-support/faq/1618",
+    "edition": "Undated FAQ; points to 2014 manual",
+    "locator": "mapping must come from DVP programming manual",
+    "access_depth": "indexed; reference-only old map pointer",
+    "reviewed_date": "2026-10-18",
+    "hardware_verified": false
+  },
+  {
+    "id": "SCH-HW",
+    "title": "M221 Hardware Guide",
+    "url": "https://www.se.com/us/en/download/document/EIO0000003313/",
+    "edition": "EIO0000003313 v04, 2025-09-01",
+    "locator": "installation and exact reference wiring",
+    "access_depth": "indexed vendor download page",
+    "reviewed_date": "2026-10-18",
+    "hardware_verified": false
+  },
+  {
+    "id": "SCH-PROG",
+    "title": "M221 Programming Guide",
+    "url": "https://www.se.com/us/en/download/document/EIO0000003297/",
+    "edition": "EIO0000003297 v04, 2025-09-01",
+    "locator": "Ethernet and serial configuration",
+    "access_depth": "opened vendor download page; v04 PDF body not inspected",
+    "reviewed_date": "2026-10-18",
+    "hardware_verified": false
+  },
+  {
+    "id": "SCH-MAP",
+    "title": "M221 Modbus variable mapping FAQ",
+    "url": "https://www.se.com/br/pt/faqs/FA341238/",
+    "edition": "Undated current FAQ; publication originally 2018",
+    "locator": "%M and %MW mapping classes",
+    "access_depth": "indexed",
+    "reviewed_date": "2026-10-18",
+    "hardware_verified": false
+  },
+  {
+    "id": "OMR-CP",
+    "title": "CP1L family features",
+    "url": "https://www.ia.omron.com/products/family/1916/",
+    "edition": "2017-04-24 page update",
+    "locator": "CP1L-EM/EL Ethernet; M/L differ",
+    "access_depth": "indexed vendor page",
+    "reviewed_date": "2026-10-18",
+    "hardware_verified": false
+  },
+  {
+    "id": "OMR-FINS",
+    "title": "Omron FINS commands FAQ",
+    "url": "https://www.ia.omron.com/support/faq/answer/26/faq00136/",
+    "edition": "Undated FAQ",
+    "locator": "FINS meaning and retry considerations",
+    "access_depth": "indexed",
+    "reviewed_date": "2026-10-18",
+    "hardware_verified": false
+  },
+  {
+    "id": "OMR-NJ",
+    "title": "NJ FINS Command Technical Guide",
+    "url": "https://assets.omron.com/m/7b1f867d19635636/original/Sysmac-NJ-FINS-Technical-Guide.pdf",
+    "edition": "W518; revision not confirmed",
+    "locator": "related manuals includes W342; NJ behavior requires separate validation",
+    "access_depth": "indexed PDF",
+    "reviewed_date": "2026-10-18",
+    "hardware_verified": false
+  },
+  {
+    "id": "OMR-HW",
+    "title": "CP1E CPU Hardware User\u2019s Manual",
+    "url": "https://assets.omron.com/m/555e9a5e7b4c8f0d/original/CP1E-Hardware-Users-Manual.pdf",
+    "edition": "W479-E1-09",
+    "locator": "exact CP1E model and installation/wiring; related W342",
+    "access_depth": "indexed PDF",
+    "reviewed_date": "2026-10-18",
+    "hardware_verified": false
+  },
+  {
+    "id": "OMR-CJ",
+    "title": "CJ2M data sheet",
+    "url": "https://www.ia.omron.com/data_pdf/cat/cj2m-cpu3__-cpu1_-md21__ds_e_12_7_csm2201.pdf?id=2712",
+    "edition": "filename edition 12_7; publication date unconfirmed",
+    "locator": "CPU3/CPU1 variants; W342 related reference",
+    "access_depth": "indexed PDF",
+    "reviewed_date": "2026-10-18",
+    "hardware_verified": false
+  },
+  {
+    "id": "RA-DATA",
+    "title": "Logix 5000 Controllers Data Access",
+    "url": "https://literature.rockwellautomation.com/idc/groups/literature/documents/pm/1756-pm020_-en-p.pdf",
+    "edition": "1756-PM020I-EN-P, September 2025",
+    "locator": "CIP tag access; printed pp.64\u201369 examples",
+    "access_depth": "opened PDF",
+    "reviewed_date": "2026-10-18",
+    "hardware_verified": false
+  },
+  {
+    "id": "RA-IO",
+    "title": "Compact 5000 I/O technical documentation",
+    "url": "https://www.rockwellautomation.com/en-gb/support/documentation/technical/i-o/compact-5000-i-o-modules.html",
+    "edition": "Live index; individual module revision required",
+    "locator": "5069 module installation publications; do not use 1769 terminals",
+    "access_depth": "indexed vendor page",
+    "reviewed_date": "2026-10-18",
+    "hardware_verified": false
+  },
+  {
+    "id": "ODVA-SPEC",
+    "title": "ODVA specifications catalogue",
+    "url": "https://www.odva.org/subscriptions-services/specifications/",
+    "edition": "April 2026 listing: CIP v3.40, EtherNet/IP v1.36",
+    "locator": "catalogue only; licensed complete specifications not accessed",
+    "access_depth": "indexed vendor page",
+    "reviewed_date": "2026-10-18",
+    "hardware_verified": false
+  },
+  {
+    "id": "ODVA-EIP",
+    "title": "EtherNet/IP technology overview",
+    "url": "https://www.odva.org/publication_download/ethernet-ip-technology-overview/",
+    "edition": "Pub 138; revision not shown",
+    "locator": "explicit vs implicit communication",
+    "access_depth": "indexed vendor publication",
+    "reviewed_date": "2026-10-18",
+    "hardware_verified": false
+  },
+  {
+    "id": "MOD-APP",
+    "title": "Modbus Application Protocol Specification",
+    "url": "https://www.modbus.org/file/secure/modbusprotocolspecification.pdf",
+    "edition": "V1.1b3",
+    "locator": "address model; read function codes; exception responses",
+    "access_depth": "opened PDF",
+    "reviewed_date": "2026-10-18",
+    "hardware_verified": false
+  },
+  {
+    "id": "MOD-INDEX",
+    "title": "Modbus specifications and implementation guides",
+    "url": "https://www.modbus.org/modbus-specifications",
+    "edition": "Application V1.1b3; Serial V1.02 listed",
+    "locator": "serial guide and TCP guide availability",
+    "access_depth": "indexed specifications catalogue; serial guide body not accessed",
+    "reviewed_date": "2026-10-18",
+    "hardware_verified": false
+  },
+  {
+    "id": "UA-DATA",
+    "title": "OPC UA Part 4 DataValue",
+    "url": "https://reference.opcfoundation.org/specs/OPC-10000-4/7.11",
+    "edition": "Live reference edition not pinned; snapshot date 2026-10-18",
+    "locator": "7.11 value/status/source/server timestamp semantics",
+    "access_depth": "opened reference",
+    "reviewed_date": "2026-10-18",
+    "hardware_verified": false
+  }
+]

@@ -1,0 +1,13 @@
+# Architecture and execution ownership
+
+arcadeOT.exe → authenticated loopback HTTP → ArcadeOT.Service.exe → independent PLC polling → decoding/scaling/quality → SQLite durable measurements/outbox → HTTPS ingestion → SQL unique event IDs → dashboard.
+
+Only the service owns connections, scheduling, persistence and uploads. Closing the UI cannot stop collection. UI uses a shared Core configuration contract and the local API; it never reads PLCs independently. Local API requires a random installation token stored under administrator/LocalService ACL. First UI release runs elevated. Future operator access must introduce explicit authorization rather than weaken the token directory ACL.
+
+Core contains a read-only driver interface, SLMP framing, data decoding and configuration validation. Service owns config snapshots, poll task generations, SQLite and uploader. Desktop owns forms/live display only. A saved config gets a new immutable revision; old workers are cancelled before new workers start. Each stored measurement includes the revision. A failed validation keeps the old config. Configuration JSON is atomically replaced but requires explicit backup/version history in a later release.
+
+One session per enabled PLC, sequential requests within a PLC, concurrent PLC workers. No transaction identifiers exist in 3E: never interleave requests on one stream. Reuse TCP until error; on malformed frame, timeout or socket failure discard the session. One to two D words or one bit per request is conservative but less efficient than batching; benchmark before large deployments. Poll interval is a target cycle duration, not a real-time guarantee. Backoff grows to 30 seconds; remaining sensors in a failed PLC cycle receive bad/null observations. Cancellation drains generation before replacing mappings.
+
+Observe UTC only after a response or fault. PLC clock/source timestamps are not invented. Read success does not prove sensor health or an updated PLC application. Future source diagnostics/heartbeat tags need explicit mappings. Detect stale display from elapsed observation time. Multi-register reads can still tear across PLC program updates: require application snapshots where consistency matters.
+
+Storage append must succeed before a reading is shown as current. Disk write failure faults collection/host; recovery can restart it but cannot fabricate missing records. Used-page quota/free-disk reserve pauses polling; health reflects it. Cloud failure never blocks PLC polling until storage limits are reached. Delivery is at least once; sink uniqueness on stable EventId makes retry idempotent. A successful HTTP status alone is not acknowledgment.

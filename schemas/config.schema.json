@@ -1,0 +1,253 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:arcadeot:config:2",
+  "title": "ArcadeOT replacement configuration v2",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "Version",
+    "SiteId",
+    "Plcs"
+  ],
+  "properties": {
+    "Version": {
+      "const": 2
+    },
+    "Revision": {
+      "type": "string"
+    },
+    "SiteId": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 100
+    },
+    "Plcs": {
+      "type": "array",
+      "maxItems": 100,
+      "items": {
+        "$ref": "#/$defs/plc"
+      }
+    },
+    "CloudUrl": {
+      "type": "string",
+      "pattern": "^$|^https://"
+    },
+    "RetentionDays": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 3650,
+      "default": 30
+    },
+    "MaxBufferMb": {
+      "type": "integer",
+      "minimum": 64,
+      "maximum": 102400,
+      "default": 1024
+    }
+  },
+  "$defs": {
+    "sensor": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "Id",
+        "Address",
+        "Type"
+      ],
+      "properties": {
+        "Id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "Name": {
+          "type": "string"
+        },
+        "Address": {
+          "type": "string",
+          "pattern": "^([DMdm][0-9]+|[XYxy][0-7]+)$"
+        },
+        "Type": {
+          "enum": [
+            "Int16",
+            "UInt16",
+            "Int32",
+            "UInt32",
+            "Float32",
+            "Bool"
+          ]
+        },
+        "SwapWords": {
+          "type": "boolean",
+          "default": false
+        },
+        "Scale": {
+          "type": "number",
+          "default": 1
+        },
+        "Offset": {
+          "type": "number",
+          "default": 0
+        },
+        "Unit": {
+          "type": "string"
+        },
+        "Min": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "Max": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "Group": {
+          "type": "string",
+          "maxLength": 500
+        },
+        "ModuleSku": {
+          "type": "string",
+          "maxLength": 500
+        },
+        "Slot": {
+          "type": "string",
+          "maxLength": 500
+        },
+        "Channel": {
+          "type": "string",
+          "maxLength": 500
+        },
+        "Terminal": {
+          "type": "string",
+          "maxLength": 500
+        },
+        "Common": {
+          "type": "string",
+          "maxLength": 500
+        },
+        "Signal": {
+          "type": "string",
+          "maxLength": 500
+        },
+        "SensorModel": {
+          "type": "string",
+          "maxLength": 500
+        },
+        "ManualReference": {
+          "type": "string",
+          "maxLength": 500
+        }
+      }
+    },
+    "plc": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "Id",
+        "Enabled",
+        "Host",
+        "Port",
+        "Sensors"
+      ],
+      "properties": {
+        "Id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "Model": {
+          "type": "string"
+        },
+        "Firmware": {
+          "type": "string"
+        },
+        "Host": {
+          "type": "string"
+        },
+        "Port": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 65535
+        },
+        "Enabled": {
+          "type": "boolean"
+        },
+        "FrameMode": {
+          "enum": [
+            "Binary",
+            "AsciiOctal",
+            "AsciiHex"
+          ],
+          "default": "Binary"
+        },
+        "PollMs": {
+          "type": "integer",
+          "minimum": 250,
+          "maximum": 3600000,
+          "default": 1000
+        },
+        "TimeoutMs": {
+          "type": "integer",
+          "minimum": 250,
+          "maximum": 60000,
+          "default": 3000
+        },
+        "Sensors": {
+          "type": "array",
+          "maxItems": 10000,
+          "items": {
+            "$ref": "#/$defs/sensor"
+          }
+        },
+        "Name": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 200
+        },
+        "ProfileId": {
+          "enum": [
+            "mitsubishi-fx5u",
+            "custom-slmp",
+            "siemens-s7-1200",
+            "delta-dvp-se",
+            "schneider-m221",
+            "omron-cj",
+            "rockwell-logix"
+          ]
+        },
+        "Interface": {
+          "type": "string",
+          "maxLength": 200
+        },
+        "ProfileVersion": {
+          "const": "2026.10.18"
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "Enabled": {
+                "const": true
+              }
+            },
+            "required": [
+              "Enabled"
+            ]
+          },
+          "then": {
+            "properties": {
+              "Host": {
+                "minLength": 1
+              },
+              "Port": {
+                "minimum": 1
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

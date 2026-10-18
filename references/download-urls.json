@@ -1,0 +1,10 @@
+{
+  "MIT-COMM-J.pdf": "https://dl.mitsubishielectric.com/dl/fa/document/manual/plcf/sh082625eng/sh082625engj.pdf",
+  "MIT-HARDWARE-Q.pdf": "https://dl.mitsubishielectric.com/dl/fa/document/manual/plcf/sh082452eng/sh082452engq.pdf",
+  "MIT-SLMP-K.pdf": "https://dl.mitsubishielectric.com/dl/fa/document/manual/plcf/jy997d56001/jy997d56001k.pdf",
+  "MODBUS-APPLICATION.pdf": "https://www.modbus.org/file/secure/modbusprotocolspecification.pdf",
+  "MODBUS-SERIAL.pdf": "https://www.modbus.org/file/secure/modbusoverserial.pdf",
+  "OMRON-W420.pdf": "https://assets.omron.eu/downloads/latest/manual/en/w420_cj1w-etn21_cs1w-etn21_ethernet_units_-_construction_of_networks_operation_manual_en.pdf",
+  "ROCKWELL-DATA-ACCESS.pdf": "https://literature.rockwellautomation.com/idc/groups/literature/documents/pm/1756-pm020_-en-p.pdf",
+  "DELTA-DVP-PROGRAMMING.pdf": "https://filecenter.deltaww.com/Products/download/06/060302/Manual/DELTA_IA-PLC_DVP_ES2-EX2-EC5-SS2-SA2-SX2-SE-TP_PM_EN_20231221.pdf"
+}

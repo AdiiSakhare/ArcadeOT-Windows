@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "parameters": "--vulnerable --include-transitive",
+  "sources": [
+    "https://api.nuget.org/v3/index.json"
+  ],
+  "projects": [
+    {
+      "path": "src/ArcadeOT.Application/ArcadeOT.Application.csproj"
+    },
+    {
+      "path": "src/ArcadeOT.Desktop/ArcadeOT.Desktop.csproj"
+    },
+    {
+      "path": "src/ArcadeOT.Domain/ArcadeOT.Domain.csproj"
+    },
+    {
+      "path": "src/ArcadeOT.Drivers.Slmp/ArcadeOT.Drivers.Slmp.csproj"
+    },
+    {
+      "path": "src/ArcadeOT.Infrastructure/ArcadeOT.Infrastructure.csproj"
+    },
+    {
+      "path": "src/ArcadeOT.Service/ArcadeOT.Service.csproj"
+    },
+    {
+      "path": "tests/unit/ArcadeOT.Checks/ArcadeOT.Checks.csproj"
+    }
+  ]
+}

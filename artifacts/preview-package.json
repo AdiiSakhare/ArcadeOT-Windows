@@ -1,0 +1,12 @@
+{
+  "version": "0.2.0",
+  "target": "win-x64",
+  "selfContained": true,
+  "zip": "ArcadeOT-Windows-x64-preview.zip",
+  "bytes": 113075758,
+  "sha256": "cbce5a521339f16dc5f73d7208766940137204b51f0a382cd511ef0ef77e5312",
+  "payloadFiles": 764,
+  "exeHeaders": "AMD64 PE",
+  "windowsExecuted": false,
+  "signed": false
+}

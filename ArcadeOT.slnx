@@ -1,0 +1,14 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/ArcadeOT.Application/ArcadeOT.Application.csproj" />
+    <Project Path="src/ArcadeOT.Desktop/ArcadeOT.Desktop.csproj" />
+    <Project Path="src/ArcadeOT.Domain/ArcadeOT.Domain.csproj" />
+    <Project Path="src/ArcadeOT.Drivers.Slmp/ArcadeOT.Drivers.Slmp.csproj" />
+    <Project Path="src/ArcadeOT.Infrastructure/ArcadeOT.Infrastructure.csproj" />
+    <Project Path="src/ArcadeOT.Service/ArcadeOT.Service.csproj" />
+  </Folder>
+  <Folder Name="/tests/" />
+  <Folder Name="/tests/unit/">
+    <Project Path="tests/unit/ArcadeOT.Checks/ArcadeOT.Checks.csproj" />
+  </Folder>
+</Solution>

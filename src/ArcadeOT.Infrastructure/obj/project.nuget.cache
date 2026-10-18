@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "sJg+W+OWmA8=",
+  "success": true,
+  "projectFilePath": "/Users/adinathsakhare/Desktop/ArcadeOT-Windows-x64/src/ArcadeOT.Infrastructure/ArcadeOT.Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "/Users/adinathsakhare/Desktop/ArcadeOT-Windows-x64/artifacts/dotnet-home/.nuget/packages/microsoft.data.sqlite/10.0.13/microsoft.data.sqlite.10.0.13.nupkg.sha512",
+    "/Users/adinathsakhare/Desktop/ArcadeOT-Windows-x64/artifacts/dotnet-home/.nuget/packages/microsoft.data.sqlite.core/10.0.13/microsoft.data.sqlite.core.10.0.13.nupkg.sha512",
+    "/Users/adinathsakhare/Desktop/ArcadeOT-Windows-x64/artifacts/dotnet-home/.nuget/packages/sqlitepclraw.bundle_e_sqlite3/2.1.13/sqlitepclraw.bundle_e_sqlite3.2.1.13.nupkg.sha512",
+    "/Users/adinathsakhare/Desktop/ArcadeOT-Windows-x64/artifacts/dotnet-home/.nuget/packages/sqlitepclraw.core/2.1.13/sqlitepclraw.core.2.1.13.nupkg.sha512",
+    "/Users/adinathsakhare/Desktop/ArcadeOT-Windows-x64/artifacts/dotnet-home/.nuget/packages/sqlitepclraw.lib.e_sqlite3/2.1.13/sqlitepclraw.lib.e_sqlite3.2.1.13.nupkg.sha512",
+    "/Users/adinathsakhare/Desktop/ArcadeOT-Windows-x64/artifacts/dotnet-home/.nuget/packages/sqlitepclraw.provider.e_sqlite3/2.1.13/sqlitepclraw.provider.e_sqlite3.2.1.13.nupkg.sha512",
+    "/Users/adinathsakhare/Desktop/ArcadeOT-Windows-x64/artifacts/dotnet-home/.nuget/packages/microsoft.netcore.app.runtime.win-x64/10.0.13/microsoft.netcore.app.runtime.win-x64.10.0.13.nupkg.sha512",
+    "/Users/adinathsakhare/Desktop/ArcadeOT-Windows-x64/artifacts/dotnet-home/.nuget/packages/microsoft.windowsdesktop.app.ref/10.0.13/microsoft.windowsdesktop.app.ref.10.0.13.nupkg.sha512",
+    "/Users/adinathsakhare/Desktop/ArcadeOT-Windows-x64/artifacts/dotnet-home/.nuget/packages/microsoft.windowsdesktop.app.runtime.win-x64/10.0.13/microsoft.windowsdesktop.app.runtime.win-x64.10.0.13.nupkg.sha512",
+    "/Users/adinathsakhare/Desktop/ArcadeOT-Windows-x64/artifacts/dotnet-home/.nuget/packages/microsoft.aspnetcore.app.runtime.win-x64/10.0.13/microsoft.aspnetcore.app.runtime.win-x64.10.0.13.nupkg.sha512",
+    "/Users/adinathsakhare/Desktop/ArcadeOT-Windows-x64/artifacts/dotnet-home/.nuget/packages/microsoft.netcore.app.host.win-x64/10.0.13/microsoft.netcore.app.host.win-x64.10.0.13.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "build",
+      "exitCode": 0
+    },
+    {
+      "check": "core-checks",
+      "exitCode": 0
+    },
+    {
+      "check": "service-integration",
+      "exitCode": 0
+    },
+    {
+      "check": "package-audit",
+      "exitCode": 0
+    }
+  ],
+  "notRun": [
+    "Windows desktop interaction",
+    "PowerShell installer/service registration",
+    "Windows boot before login",
+    "physical PLC",
+    "hosted cloud",
+    "signing"
+  ]
+}

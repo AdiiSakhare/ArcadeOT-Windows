@@ -1,0 +1,34 @@
+[
+  {
+    "id": "slmp-d100-int16",
+    "provenance": "constructed from MIT-SLMP 3E layout; NOT hardware capture",
+    "requestHex": "500000FFFF03000C00100001040000640000A80100",
+    "responseHex": "D00000FFFF030004000000D204",
+    "raw": 1234,
+    "scale": 0.1,
+    "value": 123.4
+  },
+  {
+    "id": "slmp-d100-ascii",
+    "provenance": "constructed parser fixture; NOT hardware capture",
+    "requestAscii": "500000FF03FF000018001004010000D*0001000001",
+    "responseAscii": "D00000FF03FF000008000004D2",
+    "raw": 1234
+  },
+  {
+    "id": "modbus-float10",
+    "status": "planned driver; unexecuted vector",
+    "provenance": "constructed MBAP and IEEE754 fixture; no manufacturer register claim",
+    "requestHex": "000100000006010300000002",
+    "responseHex": "00010000000701030441200000",
+    "wordOrder": "high-word-first",
+    "value": 10
+  },
+  {
+    "id": "logix-dint752",
+    "status": "planned driver; payload-only codec fixture",
+    "provenance": "RA-DATA datatype/payload example; not full EtherNet/IP packet",
+    "payloadHex": "C400F0020000",
+    "value": 752
+  }
+]

@@ -1,0 +1,164 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "ArcadeOT cloud ingestion contract \u2014 backend to implement",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/v1/measurements:ingest": {
+      "post": {
+        "security": [
+          {
+            "bearer": []
+          }
+        ],
+        "description": "Authenticate and authorize each SiteId; commit validated rows with EventId uniqueness; identical retries return the same accepted IDs. Conflicting payload for existing ID must be rejected/quarantined. Never ACK before commit.",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "schemaVersion",
+                  "measurements"
+                ],
+                "properties": {
+                  "schemaVersion": {
+                    "type": "integer",
+                    "enum": [
+                      1
+                    ]
+                  },
+                  "measurements": {
+                    "type": "array",
+                    "minItems": 1,
+                    "maxItems": 100,
+                    "items": {
+                      "$ref": "#/components/schemas/Measurement"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Committed subset only",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "acceptedEventIds"
+                  ],
+                  "properties": {
+                    "acceptedEventIds": {
+                      "type": "array",
+                      "uniqueItems": true,
+                      "items": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Malformed or invalid payload; no uncommitted ACK"
+          },
+          "401": {
+            "description": "Missing/invalid credential"
+          },
+          "403": {
+            "description": "Credential not authorized for site"
+          },
+          "409": {
+            "description": "Event ID exists with conflicting content"
+          },
+          "429": {
+            "description": "Rate limited; retain buffer"
+          },
+          "503": {
+            "description": "Unavailable; retain buffer"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "securitySchemes": {
+      "bearer": {
+        "type": "http",
+        "scheme": "bearer"
+      }
+    },
+    "schemas": {
+      "Measurement": {
+        "type": "object",
+        "required": [
+          "EventId",
+          "SiteId",
+          "PlcId",
+          "SensorId",
+          "ConfigRevision",
+          "Unit",
+          "Quality",
+          "RawHex",
+          "ObservedAtUtc",
+          "SourceAtUtc",
+          "RawValue",
+          "Value",
+          "Error"
+        ],
+        "properties": {
+          "EventId": {
+            "type": "string"
+          },
+          "SiteId": {
+            "type": "string"
+          },
+          "PlcId": {
+            "type": "string"
+          },
+          "SensorId": {
+            "type": "string"
+          },
+          "ConfigRevision": {
+            "type": "string"
+          },
+          "Unit": {
+            "type": "string"
+          },
+          "Quality": {
+            "type": "string"
+          },
+          "RawHex": {
+            "type": "string"
+          },
+          "ObservedAtUtc": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "SourceAtUtc": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "RawValue": {
+            "nullable": true
+          },
+          "Value": {
+            "nullable": true
+          },
+          "Error": {
+            "type": "string",
+            "nullable": true
+          }
+        }
+      }
+    }
+  }
+}

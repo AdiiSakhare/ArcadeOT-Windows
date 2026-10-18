@@ -1,0 +1,25 @@
+{
+  "Version": 2,
+  "Revision": "disabled-example-only",
+  "SiteId": "site-1",
+  "Plcs": [
+    {
+      "Id": "controller-1",
+      "Name": "FX5U commissioning example",
+      "ProfileId": "mitsubishi-fx5u",
+      "Model": "",
+      "Firmware": "unknown",
+      "Interface": "Built-in Ethernet",
+      "Host": "",
+      "Port": 0,
+      "FrameMode": "Binary",
+      "PollMs": 1000,
+      "TimeoutMs": 3000,
+      "Enabled": false,
+      "Sensors": []
+    }
+  ],
+  "CloudUrl": "",
+  "RetentionDays": 30,
+  "MaxBufferMb": 1024
+}

@@ -1,0 +1,13 @@
+  ArcadeOT.Domain -> /Users/adinathsakhare/Desktop/ArcadeOT-Windows-x64/src/ArcadeOT.Domain/bin/Release/net10.0/ArcadeOT.Domain.dll
+  ArcadeOT.Application -> /Users/adinathsakhare/Desktop/ArcadeOT-Windows-x64/src/ArcadeOT.Application/bin/Release/net10.0/ArcadeOT.Application.dll
+  ArcadeOT.Desktop -> /Users/adinathsakhare/Desktop/ArcadeOT-Windows-x64/src/ArcadeOT.Desktop/bin/Release/net10.0-windows/ArcadeOT.Desktop.dll
+  ArcadeOT.Drivers.Slmp -> /Users/adinathsakhare/Desktop/ArcadeOT-Windows-x64/src/ArcadeOT.Drivers.Slmp/bin/Release/net10.0/ArcadeOT.Drivers.Slmp.dll
+  ArcadeOT.Infrastructure -> /Users/adinathsakhare/Desktop/ArcadeOT-Windows-x64/src/ArcadeOT.Infrastructure/bin/Release/net10.0/ArcadeOT.Infrastructure.dll
+  ArcadeOT.Service -> /Users/adinathsakhare/Desktop/ArcadeOT-Windows-x64/src/ArcadeOT.Service/bin/Release/net10.0/ArcadeOT.Service.dll
+  ArcadeOT.Checks -> /Users/adinathsakhare/Desktop/ArcadeOT-Windows-x64/tests/unit/ArcadeOT.Checks/bin/Release/net10.0/ArcadeOT.Checks.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:05.96

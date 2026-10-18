@@ -1,0 +1,15 @@
+/Users/adinathsakhare/Desktop/ArcadeOT-Windows-x64/src/ArcadeOT.Infrastructure/bin/Release/net10.0/win-x64/ArcadeOT.Infrastructure.deps.json
+/Users/adinathsakhare/Desktop/ArcadeOT-Windows-x64/src/ArcadeOT.Infrastructure/bin/Release/net10.0/win-x64/ArcadeOT.Infrastructure.dll
+/Users/adinathsakhare/Desktop/ArcadeOT-Windows-x64/src/ArcadeOT.Infrastructure/bin/Release/net10.0/win-x64/ArcadeOT.Infrastructure.pdb
+/Users/adinathsakhare/Desktop/ArcadeOT-Windows-x64/src/ArcadeOT.Infrastructure/bin/Release/net10.0/win-x64/ArcadeOT.Domain.dll
+/Users/adinathsakhare/Desktop/ArcadeOT-Windows-x64/src/ArcadeOT.Infrastructure/bin/Release/net10.0/win-x64/ArcadeOT.Domain.pdb
+/Users/adinathsakhare/Desktop/ArcadeOT-Windows-x64/src/ArcadeOT.Infrastructure/obj/Release/net10.0/win-x64/ArcadeOT.Infrastructure.csproj.AssemblyReference.cache
+/Users/adinathsakhare/Desktop/ArcadeOT-Windows-x64/src/ArcadeOT.Infrastructure/obj/Release/net10.0/win-x64/ArcadeOT.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/adinathsakhare/Desktop/ArcadeOT-Windows-x64/src/ArcadeOT.Infrastructure/obj/Release/net10.0/win-x64/ArcadeOT.Infrastructure.AssemblyInfoInputs.cache
+/Users/adinathsakhare/Desktop/ArcadeOT-Windows-x64/src/ArcadeOT.Infrastructure/obj/Release/net10.0/win-x64/ArcadeOT.Infrastructure.AssemblyInfo.cs
+/Users/adinathsakhare/Desktop/ArcadeOT-Windows-x64/src/ArcadeOT.Infrastructure/obj/Release/net10.0/win-x64/ArcadeOT.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/adinathsakhare/Desktop/ArcadeOT-Windows-x64/src/ArcadeOT.Infrastructure/obj/Release/net10.0/win-x64/ArcadeOT.B4FF5A4F.Up2Date
+/Users/adinathsakhare/Desktop/ArcadeOT-Windows-x64/src/ArcadeOT.Infrastructure/obj/Release/net10.0/win-x64/ArcadeOT.Infrastructure.dll
+/Users/adinathsakhare/Desktop/ArcadeOT-Windows-x64/src/ArcadeOT.Infrastructure/obj/Release/net10.0/win-x64/refint/ArcadeOT.Infrastructure.dll
+/Users/adinathsakhare/Desktop/ArcadeOT-Windows-x64/src/ArcadeOT.Infrastructure/obj/Release/net10.0/win-x64/ArcadeOT.Infrastructure.pdb
+/Users/adinathsakhare/Desktop/ArcadeOT-Windows-x64/src/ArcadeOT.Infrastructure/obj/Release/net10.0/win-x64/ref/ArcadeOT.Infrastructure.dll

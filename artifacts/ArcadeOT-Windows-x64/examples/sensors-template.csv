@@ -1,0 +1,2 @@
+Name,Group,Address,Type,Scale,Offset,Unit,SwapWords,ModuleSku,Slot,Channel,Terminal,Common,Signal,SensorModel,ManualReference
+Example temperature,Example only,D100,Int16,0.1,0,degC,false,,,,,,,,

@@ -1,0 +1,56 @@
+[
+  {
+    "file": "MIT-COMM-J.pdf",
+    "url": "https://dl.mitsubishielectric.com/dl/fa/document/manual/plcf/sh082625eng/sh082625engj.pdf",
+    "status": "unavailable",
+    "error": "[SSL: DECRYPTION_FAILED_OR_BAD_RECORD_MAC] decryption failed or bad record mac (_ssl.c:2633)"
+  },
+  {
+    "file": "MIT-HARDWARE-Q.pdf",
+    "url": "https://dl.mitsubishielectric.com/dl/fa/document/manual/plcf/sh082452eng/sh082452engq.pdf",
+    "status": "downloaded",
+    "bytes": 7943886,
+    "sha256": "9a2f5b0ba897202edcfcc9e66bb187f641e1c08411e953ec5dc5d13e9a38bdba"
+  },
+  {
+    "file": "MIT-SLMP-K.pdf",
+    "url": "https://dl.mitsubishielectric.com/dl/fa/document/manual/plcf/jy997d56001/jy997d56001k.pdf",
+    "status": "downloaded",
+    "bytes": 2406141,
+    "sha256": "f4c9ed4c2ae709ede18be8a9abce7e17f09c4daa801abeed516b681509ffb9bb"
+  },
+  {
+    "file": "MODBUS-APPLICATION.pdf",
+    "url": "https://www.modbus.org/file/secure/modbusprotocolspecification.pdf",
+    "status": "downloaded",
+    "bytes": 932519,
+    "sha256": "f80d0d7132fd035104c3f21b01026470e3310ca3d8d493d9a9737d0d32ad2eb1"
+  },
+  {
+    "file": "MODBUS-SERIAL.pdf",
+    "url": "https://www.modbus.org/file/secure/modbusoverserial.pdf",
+    "status": "downloaded",
+    "bytes": 264122,
+    "sha256": "85a91e278b26d68c94a2f61a5300cd39c9e4c855034833f391abc6541fbdf7e5"
+  },
+  {
+    "file": "OMRON-W420.pdf",
+    "url": "https://assets.omron.eu/downloads/latest/manual/en/w420_cj1w-etn21_cs1w-etn21_ethernet_units_-_construction_of_networks_operation_manual_en.pdf",
+    "status": "downloaded",
+    "bytes": 3562687,
+    "sha256": "014b1e11bd230973f3b87eb804624beb3ede23a5db8c12539fa0ca4b5025cd16"
+  },
+  {
+    "file": "ROCKWELL-DATA-ACCESS.pdf",
+    "url": "https://literature.rockwellautomation.com/idc/groups/literature/documents/pm/1756-pm020_-en-p.pdf",
+    "status": "downloaded",
+    "bytes": 2519406,
+    "sha256": "2870279c8d9d9b71d73588c22376e17a8ad6f049217669f3db185e18fd9c5de8"
+  },
+  {
+    "file": "DELTA-DVP-PROGRAMMING.pdf",
+    "url": "https://filecenter.deltaww.com/Products/download/06/060302/Manual/DELTA_IA-PLC_DVP_ES2-EX2-EC5-SS2-SA2-SX2-SE-TP_PM_EN_20231221.pdf",
+    "status": "unavailable",
+    "error": "Expected PDF smaller than 40 MB"
+  }
+]

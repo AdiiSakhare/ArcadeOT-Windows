@@ -1,0 +1,11 @@
+{
+  "kind": "local-fixture-only",
+  "checks": [
+    "auth and strict invalid/null/unknown-field rejection; actual chunked-body limit",
+    "actual driver socket exchange, scaling/raw/quality, multi-PLC isolation, CSV and history cursor",
+    "physical I/O metadata retained; invalid apply preserves active revision",
+    "restore creates new configuration revision",
+    "process restart preserves SQLite records/config history and null source timestamps"
+  ],
+  "status": "PASS"
+}

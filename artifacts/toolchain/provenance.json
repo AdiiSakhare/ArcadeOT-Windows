@@ -1,0 +1,6 @@
+{
+  "release": "https://github.com/mstorsjo/llvm-mingw/releases/tag/20260616",
+  "asset": "llvm-mingw-20260616-ucrt-macos-universal.tar.xz",
+  "sha256": "2cab02a2e964bd4aae981150a45985d07c657cfa8d244959eb9e2dcc5eedd7b1",
+  "officialDigest": "sha256:2cab02a2e964bd4aae981150a45985d07c657cfa8d244959eb9e2dcc5eedd7b1"
+}

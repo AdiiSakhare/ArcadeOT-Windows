@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "sourceFingerprint": "58c7d21cdfcab5f3eb1685cba422ee633c9ef383228d6e21f87bce00bc9cf1c1",
+  "checks": [
+    {
+      "check": "build",
+      "exitCode": 0
+    },
+    {
+      "check": "core-checks",
+      "exitCode": 0
+    },
+    {
+      "check": "service-integration",
+      "exitCode": 0
+    },
+    {
+      "check": "installer-checks",
+      "exitCode": 0
+    },
+    {
+      "check": "package-audit",
+      "exitCode": 0
+    }
+  ],
+  "notRun": [
+    "Windows desktop interaction",
+    "PowerShell installer/service registration",
+    "Windows boot before login",
+    "physical PLC",
+    "hosted cloud",
+    "signing"
+  ]
+}

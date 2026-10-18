@@ -1,0 +1,7 @@
+# Native Windows installer
+
+The current artifact is ArcadeOT-windows-x64.exe, cross-compiled on macOS. `bootstrapper/setup.c` implements the native setup window and protected staging; `setup.manifest` requests administrator elevation; `Expand-And-Install.ps1` validates/extracts the embedded payload and executes installation. The EXE uses only Windows system DLLs; it embeds both application processes and their self-contained runtime payload.
+
+Install.ps1 provisions ArcadeOT2, takes stopped-service data snapshots, protects data ACLs, swaps payloads with binary rollback, verifies authenticated service health and registers Start menu/Installed Apps entries. Uninstall.ps1 elevates as needed, removes service/binaries and retains measurement/configuration/credential data. Re-running the installer repairs the same version or upgrades to a newer version; downgrades are refused.
+
+Build with scripts/publish_windows.py and scripts/build_installer.py after scripts/verify_build.py. Native compiler provenance and binary/resource inspection are recorded under artifacts/. Tests parse the scripts and exercise archive guards on macOS. Actual Windows installation, registry/ACL behavior, UI, reboot and rollback remain unexecuted gates. The output is unsigned. The current EXE is a native bootstrapper, not a WiX MSI/Burn bundle; this adaptation follows the user's request to build with no Windows infrastructure.

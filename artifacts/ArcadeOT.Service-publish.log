@@ -1,0 +1,8 @@
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ArcadeOT.Domain -> /Users/adinathsakhare/Desktop/ArcadeOT-Windows-x64/src/ArcadeOT.Domain/bin/Release/net10.0/win-x64/ArcadeOT.Domain.dll
+  ArcadeOT.Application -> /Users/adinathsakhare/Desktop/ArcadeOT-Windows-x64/src/ArcadeOT.Application/bin/Release/net10.0/win-x64/ArcadeOT.Application.dll
+  ArcadeOT.Infrastructure -> /Users/adinathsakhare/Desktop/ArcadeOT-Windows-x64/src/ArcadeOT.Infrastructure/bin/Release/net10.0/win-x64/ArcadeOT.Infrastructure.dll
+  ArcadeOT.Drivers.Slmp -> /Users/adinathsakhare/Desktop/ArcadeOT-Windows-x64/src/ArcadeOT.Drivers.Slmp/bin/Release/net10.0/win-x64/ArcadeOT.Drivers.Slmp.dll
+  ArcadeOT.Service -> /Users/adinathsakhare/Desktop/ArcadeOT-Windows-x64/src/ArcadeOT.Service/bin/Release/net10.0/win-x64/ArcadeOT.Service.dll
+  ArcadeOT.Service -> /Users/adinathsakhare/Desktop/ArcadeOT-Windows-x64/artifacts/ArcadeOT-Windows-x64/service/

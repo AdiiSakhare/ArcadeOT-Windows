@@ -1,0 +1,15 @@
+/Users/adinathsakhare/Desktop/ArcadeOT-Windows-x64/src/ArcadeOT.Drivers.Slmp/bin/Release/net10.0/win-x64/ArcadeOT.Drivers.Slmp.deps.json
+/Users/adinathsakhare/Desktop/ArcadeOT-Windows-x64/src/ArcadeOT.Drivers.Slmp/bin/Release/net10.0/win-x64/ArcadeOT.Drivers.Slmp.dll
+/Users/adinathsakhare/Desktop/ArcadeOT-Windows-x64/src/ArcadeOT.Drivers.Slmp/bin/Release/net10.0/win-x64/ArcadeOT.Drivers.Slmp.pdb
+/Users/adinathsakhare/Desktop/ArcadeOT-Windows-x64/src/ArcadeOT.Drivers.Slmp/bin/Release/net10.0/win-x64/ArcadeOT.Domain.dll
+/Users/adinathsakhare/Desktop/ArcadeOT-Windows-x64/src/ArcadeOT.Drivers.Slmp/bin/Release/net10.0/win-x64/ArcadeOT.Domain.pdb
+/Users/adinathsakhare/Desktop/ArcadeOT-Windows-x64/src/ArcadeOT.Drivers.Slmp/obj/Release/net10.0/win-x64/ArcadeOT.Drivers.Slmp.csproj.AssemblyReference.cache
+/Users/adinathsakhare/Desktop/ArcadeOT-Windows-x64/src/ArcadeOT.Drivers.Slmp/obj/Release/net10.0/win-x64/ArcadeOT.Drivers.Slmp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/adinathsakhare/Desktop/ArcadeOT-Windows-x64/src/ArcadeOT.Drivers.Slmp/obj/Release/net10.0/win-x64/ArcadeOT.Drivers.Slmp.AssemblyInfoInputs.cache
+/Users/adinathsakhare/Desktop/ArcadeOT-Windows-x64/src/ArcadeOT.Drivers.Slmp/obj/Release/net10.0/win-x64/ArcadeOT.Drivers.Slmp.AssemblyInfo.cs
+/Users/adinathsakhare/Desktop/ArcadeOT-Windows-x64/src/ArcadeOT.Drivers.Slmp/obj/Release/net10.0/win-x64/ArcadeOT.Drivers.Slmp.csproj.CoreCompileInputs.cache
+/Users/adinathsakhare/Desktop/ArcadeOT-Windows-x64/src/ArcadeOT.Drivers.Slmp/obj/Release/net10.0/win-x64/ArcadeOT.CE1B1B42.Up2Date
+/Users/adinathsakhare/Desktop/ArcadeOT-Windows-x64/src/ArcadeOT.Drivers.Slmp/obj/Release/net10.0/win-x64/ArcadeOT.Drivers.Slmp.dll
+/Users/adinathsakhare/Desktop/ArcadeOT-Windows-x64/src/ArcadeOT.Drivers.Slmp/obj/Release/net10.0/win-x64/refint/ArcadeOT.Drivers.Slmp.dll
+/Users/adinathsakhare/Desktop/ArcadeOT-Windows-x64/src/ArcadeOT.Drivers.Slmp/obj/Release/net10.0/win-x64/ArcadeOT.Drivers.Slmp.pdb
+/Users/adinathsakhare/Desktop/ArcadeOT-Windows-x64/src/ArcadeOT.Drivers.Slmp/obj/Release/net10.0/win-x64/ref/ArcadeOT.Drivers.Slmp.dll

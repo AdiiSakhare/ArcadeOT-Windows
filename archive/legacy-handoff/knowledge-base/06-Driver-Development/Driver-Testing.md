@@ -1,0 +1,7 @@
+# Driver testing and promotion
+
+Today's sequence is real FX5U commissioning, with protocol checks supporting the implementation. Unit fixtures do not replace the real hardware acceptance record. Mandatory codec tests: exact request bytes and declared lengths, valid fragmented response, wrong route/header, oversized/truncated response, end-code failure, sign/float/word order and byte-order cases, cancellation/timeout/late-response stream disposal and reconnect. Use asymmetric payload bytes.
+
+Each future driver must add raw fixture provenance (constructed normative example vs captured approved PLC traffic), manual edition/section, expected values and parser rejection rules. Modbus RTU adds CRC/timing/bus arbitration; S7 adds PDU/protection/DB layout; CIP adds encapsulation/session/routing/partial transfer and declared tag type; FINS adds transport negotiation/SID/end-code/area; UA adds certificate/status/namespace change/queue overflow and resubscription.
+
+Hardware promotion requires exact model/firmware/mode evidence, correct values against engineering-tool monitoring, at least a representative datatype set, reconnect and startup tests, poll-load assessment and durable replay checks. Record unsupported combinations separately. A different firmware, interface module or protocol mode does not inherit certification automatically. Manufacturer simulation tools may support unit/integration work later but are not prerequisites for today's physical FX5U test.
