@@ -2,6 +2,10 @@
 
 New WPF industrial workspace and independent Windows collector service, version **0.3.0 installation build**. Built from the clean replacement workspace; archived packages remain unchanged.
 
+## React web app
+
+The new [React web workspace](web/README.md) runs with a separate Node.js 24 read-only gateway and real adapters for SLMP, Modbus TCP/RTU, OPC UA, Siemens S7, EtherNet/IP CIP and Omron FINS UDP. It starts with an empty site and uses no simulated readings. Run it on a machine that can reach your equipment; see the web README for FX5U setup and the Windows launcher. [Software verification and hardware limits](web/VERIFICATION.md) are recorded separately from the existing Windows build.
+
 ## Current delivery
 
 - Configurable site, controller family/profile, exact CPU model, firmware, host/IP, TCP port, SLMP frame encoding, polling/deadline and enabled state.

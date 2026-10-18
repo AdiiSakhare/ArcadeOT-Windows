@@ -1,0 +1,36 @@
+{
+  "name": "arcadeot-web",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server/dev.mjs",
+    "build": "vite build",
+    "start": "node server/index.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "test:browser": "npm run build && node tests/browser-check.mjs",
+    "format": "prettier --write src server tests vite.config.js package.json"
+  },
+  "dependencies": {
+    "@fontsource-variable/dm-sans": "^5.3.0",
+    "@fontsource-variable/manrope": "^5.3.0",
+    "lucide-react": "^0.468.0",
+    "modbus-serial": "^8.0.25",
+    "node-opcua-certificate-manager": "^2.187.9",
+    "node-opcua-client": "^2.187.9",
+    "nodes7": "^0.3.18",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "st-ethernet-ip": "^2.7.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.1.0",
+    "node-opcua-server": "^2.187.9",
+    "playwright-core": "^1.64.1",
+    "prettier": "^3.9.10",
+    "vite": "^7.2.0"
+  },
+  "engines": {
+    "node": ">=24.0.0"
+  }
+}
